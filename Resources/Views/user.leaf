@@ -1,0 +1,13 @@
+#// 1
+#set("content") {
+  #// 2
+  <h1>#(user.name)</h1>
+  #// 3
+  <h2>#(user.username)</h2>
+
+  #// 4
+  #embed("acronymsTable")
+}
+
+#// 6
+#embed("base")
